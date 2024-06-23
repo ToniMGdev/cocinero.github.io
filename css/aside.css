@@ -1,0 +1,32 @@
+aside {
+    flex: 25%;
+    background-color: var(--color-gray-light);
+    padding: 20px;
+}
+
+aside h2, aside h3{
+    color: var(--color-primary);
+}
+
+.video-link img {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    object-fit: cover; /* cover para que laimagen no se deforme */
+}
+
+.video-link h4 {
+    opacity: 0; /* hago desaparecer el h4 para hacerlo aparecer con el hover */
+    position: absolute; /* para que no ocupe el espacio y se ponga sobre la imagen */
+    color: white;
+    background: rgba(0, 0, 0, 0.7); /* bg con transparencia */
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    transition: all 0.2s; /* transicion suave */
+}
+
+.video-link:hover h4 {
+    opacity: 1; /*hacemos aparecer el h4 */
+}

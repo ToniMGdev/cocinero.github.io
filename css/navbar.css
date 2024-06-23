@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary);
+    /* flex para que se alinee a la derecha y justify parar centrarlo */
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: var(--color-primary-dark);
+}
