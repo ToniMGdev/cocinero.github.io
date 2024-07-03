@@ -5,10 +5,12 @@
 @import "aside.css";
 @import "content.css";
 @import "footer.css";
-
+@import "recetas.css";
 @import "flipcard.css";
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) { 
+  
+  /* el menu de navegacion y el div row se colocan en columnas para ocupar todo el horizontal*/
     .row, .navbar {
       flex-direction: column;
     }

@@ -1,12 +1,11 @@
 
-
 .row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.main {
-    flex: 70%;
+.main { /* ocupara el 65% del horizontal */
+    flex: 65%;
     background-color: white;
     padding: 20px;
 }
@@ -16,7 +15,7 @@
     color: var(--color-primary);
 }
 
-.main img{
+.main img{ /*asi colocamos la imagen sin deformar y limite de altura*/
     width: 100%;
     height: 200px;
     object-fit: cover;
